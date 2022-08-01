@@ -13,7 +13,7 @@ export default class Card extends Component {
         return (
             <div className={styles.card}>
                 <img src={image_url} alt={name} />
-                <div class={styles.name}>
+                <div className={styles.name}>
                     <h2>{name.split('-')[0]}</h2>
                 </div>
                 <span>ABV {abv}%</span>
