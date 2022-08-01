@@ -24,6 +24,7 @@ export default class App extends Component {
     ]
   }
 
+  
   fetchBeers = () => {
     fetch("https://api.punkapi.com/v2/beers")
     .then(response => response.json())
@@ -45,10 +46,16 @@ export default class App extends Component {
 
   render() {
     return (
-      <main>
-        <NavBar filters={this.state.filters} handleChange={this.handleChange} handleChecked={this.handleChecked} />
-        <Main beers={this.state.beers} searchTerm={this.state.searchTerm} filters={this.state.filters} />
+      <div>
+        <main>
+          
+          <NavBar filters={this.state.filters} handleChange={this.handleChange} handleChecked={this.handleChecked} />
+      
+          <Main beers={this.state.beers} searchTerm={this.state.searchTerm} filters={this.state.filters} />
+
       </main>
+      </div>
+     
     )
   }
 }

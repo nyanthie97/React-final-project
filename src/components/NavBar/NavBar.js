@@ -29,8 +29,8 @@ export default class NavBar extends Component {
             <section className={styles.sideNav}>
                 <span className={styles.mobileMenu} onClick={()=> this.toggleMenu()}>{this.getIcon()}</span>
                 <div className={styles.navContent + (this.state.mobileMenu ? `${styles.show}` : "" )}>
-                    <div class={styles.logo}>
-                        <img src={logo} />
+                    <div className={styles.logo}>
+                        <img src={logo} alt="images"/>
                     </div>
                     <SearchBox placeholder="Search..." handleChange={this.props.handleChange} />
                     <FiltersList filters={this.props.filters} handleChecked={this.props.handleChecked}/>
