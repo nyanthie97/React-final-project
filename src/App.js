@@ -48,11 +48,8 @@ export default class App extends Component {
     return (
       <div>
         <main>
-          
           <NavBar filters={this.state.filters} handleChange={this.handleChange} handleChecked={this.handleChecked} />
-      
           <Main beers={this.state.beers} searchTerm={this.state.searchTerm} filters={this.state.filters} />
-
       </main>
       </div>
      
