@@ -1,9 +1,9 @@
+
 {
   "homepage": "http://nyanthie97.github.io/React-final-project",
   "name": "punk-api",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://stephaniehansen.github.io/punk-api",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
     "@fortawesome/free-solid-svg-icons": "^5.14.0",
@@ -24,9 +24,7 @@
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
