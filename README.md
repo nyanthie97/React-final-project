@@ -24,7 +24,7 @@ Finally the extra extra (only if you have the time), make it so you can filter t
  - Classic Range (Was first brewed before 2010)
  - High Acidity (pH lower than 4)
  
-Here is the video demo
+Here is the video link
  - https://youtu.be/87EqqreI1AE
 
 
