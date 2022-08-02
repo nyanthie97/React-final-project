@@ -46,13 +46,20 @@ export default class App extends Component {
 
   render() {
     return (
+      <BrowserRouter>
       <div>
+        <Switch>
         <main>
-          <NavBar filters={this.state.filters} handleChange={this.handleChange} handleChecked={this.handleChecked} />
+        <Route path="/NavBar">
+        <NavBar filters={this.state.filters} handleChange={this.handleChange} handleChecked={this.handleChecked} />
+        </Route>
+          <Route path="/Main">
           <Main beers={this.state.beers} searchTerm={this.state.searchTerm} filters={this.state.filters} />
+          </Route>
       </main>
+      </Switch>
       </div>
-     
+     </BrowserRouter>
     )
   }
 }
