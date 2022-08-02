@@ -23,9 +23,9 @@ Finally the extra extra (only if you have the time), make it so you can filter t
  - High Alcohol (ABV value greater than 6%)
  - Classic Range (Was first brewed before 2010)
  - High Acidity (pH lower than 4)
- - Here is the video demo
- - [Screencast from 01-08-2022  8:20:46 WB.webm](https://user-images.githubusercontent.com/106494517/182215182-c65ebe19-b72a-4d58-9b3b-9c9c48e7677d.webm)
-
+ 
+Here is the video demo
+ - https://youtu.be/87EqqreI1AE
 
 
 Best of luck!
