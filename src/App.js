@@ -4,6 +4,7 @@ import './App.module.scss';
 import NavBar from "./components/NavBar";
 import Main from "./components/Main";
 
+
 export default class App extends Component {
   state = {
     beers: [],
@@ -46,20 +47,16 @@ export default class App extends Component {
 
   render() {
     return (
-      <BrowserRouter>
       <div>
-        <Switch>
         <main>
-        <Route path="/NavBar">
-        <NavBar filters={this.state.filters} handleChange={this.handleChange} handleChecked={this.handleChecked} />
-        </Route>
-          <Route path="/Main">
+          
+          <NavBar filters={this.state.filters} handleChange={this.handleChange} handleChecked={this.handleChecked} />
+      
           <Main beers={this.state.beers} searchTerm={this.state.searchTerm} filters={this.state.filters} />
-          </Route>
+
       </main>
-      </Switch>
       </div>
-     </BrowserRouter>
+     
     )
   }
 }
